@@ -1,0 +1,3 @@
+02/08/2021 - 07:31 : STATUS: Success : MESSAGE: Download efetuado com sucesso!
+02/08/2021 - 07:31 : STATUS: Success : MESSAGE: Arquivo convertido com sucesso!
+02/08/2021 - 07:31 : STATUS: Success : MESSAGE: Filtro de Estado executado com sucesso!
