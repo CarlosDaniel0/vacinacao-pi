@@ -1,7 +1,3 @@
-def progress():
-    pass
-
-
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -39,7 +35,7 @@ class bcolors:
 
     @staticmethod
     def bold(text):
-        return '{}{}{}'.format(bcolors.Bold, text, bcolors.ENDC)
+        return '{}{}{}'.format(bcolors.BOLD, text, bcolors.ENDC)
 
     @staticmethod
     def underline(text):
