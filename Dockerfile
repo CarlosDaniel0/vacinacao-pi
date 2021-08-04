@@ -14,7 +14,7 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 # Produção
-# CMD [ "gunicorn", "--bind", "0.0.0.0:$PORT", "app:app"]
+CMD [ "gunicorn", "--bind", "0.0.0.0:$PORT", "app:app"]
 
 # Debug
-CMD [ "gunicorn", "-b", "0.0.0.0:8000", "app:app"]
+# CMD [ "gunicorn", "-b", "0.0.0.0:8000", "app:app"]
