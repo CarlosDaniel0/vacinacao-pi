@@ -7,6 +7,7 @@ from convert import Convert
 from logger import Logger
 from util import Util
 import logger
+import csv
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -71,7 +72,11 @@ try:
         Logger.show(1, 'Convertendo arquivo para CSV...')
         convert.to_csv()
         Logger.show(2, 'Conversão efetuada com sucesso!')
-
+        
+        with open(join(Util.change_dir(base_dir, down_levels=1), 'app', 'public'), 'r') as file:
+            csv_file = csv.reader(file)
+            for i in csv_file:
+                print(i)
     except:
         Logger.show(0, 'Falha ao converter o arquivo para CSV')
 except:
