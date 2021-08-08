@@ -1,0 +1,22 @@
+05/08/2021 - 11:32:18 : STATUS: INFO : MESSAGE: Fazendo Requisição ao Site...
+05/08/2021 - 11:33:08 : STATUS: INFO : MESSAGE: Desceu para a tabela
+05/08/2021 - 11:33:09 : STATUS: INFO : MESSAGE: Clicou no + de nordeste
+05/08/2021 - 11:33:13 : STATUS: INFO : MESSAGE: Clicou no - de AL
+05/08/2021 - 11:33:18 : STATUS: INFO : MESSAGE: Clicou no PI
+05/08/2021 - 11:33:23 : STATUS: INFO : MESSAGE: Sobe para a parte doses distribuidas
+05/08/2021 - 11:33:23 : STATUS: INFO : MESSAGE: Clicou no botão de download
+05/08/2021 - 11:33:33 : STATUS: SUCCESS : MESSAGE: Download efetuado com sucesso!
+05/08/2021 - 11:33:34 : STATUS: INFO : MESSAGE: Buscando arquivo
+05/08/2021 - 11:33:34 : STATUS: INFO : MESSAGE: Convertendo arquivo para CSV...
+05/08/2021 - 11:33:35 : STATUS: SUCCESS : MESSAGE: Conversão efetuada com sucesso!
+08/08/2021 - 20:28:01 : STATUS: INFO : MESSAGE: Fazendo Requisição ao Site...
+08/08/2021 - 20:28:51 : STATUS: INFO : MESSAGE: Desceu para a tabela
+08/08/2021 - 20:28:51 : STATUS: INFO : MESSAGE: Clicou no + de nordeste
+08/08/2021 - 20:28:55 : STATUS: INFO : MESSAGE: Clicou no - de AL
+08/08/2021 - 20:29:01 : STATUS: INFO : MESSAGE: Clicou no PI
+08/08/2021 - 20:29:05 : STATUS: INFO : MESSAGE: Sobe para a parte doses distribuidas
+08/08/2021 - 20:29:05 : STATUS: INFO : MESSAGE: Clicou no botão de download
+08/08/2021 - 20:29:15 : STATUS: SUCCESS : MESSAGE: Download efetuado com sucesso!
+08/08/2021 - 20:29:17 : STATUS: INFO : MESSAGE: Buscando arquivo
+08/08/2021 - 20:29:17 : STATUS: INFO : MESSAGE: Convertendo arquivo para CSV...
+08/08/2021 - 20:29:18 : STATUS: SUCCESS : MESSAGE: Conversão efetuada com sucesso!

@@ -73,7 +73,7 @@ try:
         convert.to_csv()
         Logger.show(2, 'Conversão efetuada com sucesso!')
         
-        with open(join(Util.change_dir(base_dir, down_levels=1), 'app', 'public'), 'r') as file:
+        with open(join(Util.change_dir(base_dir, down_levels=1), 'app', 'rnds', 'vacinacao_pi_rnds.csv'), 'r') as file:
             csv_file = csv.reader(file)
             for i in csv_file:
                 print(i)
