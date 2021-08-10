@@ -75,3 +75,5 @@
 08/08/2021 - 21:10:25 : STATUS: INFO : MESSAGE: Buscando arquivo
 08/08/2021 - 21:10:25 : STATUS: INFO : MESSAGE: Convertendo arquivo para CSV...
 08/08/2021 - 21:10:26 : STATUS: SUCCESS : MESSAGE: Conversão efetuada com sucesso!
+09/08/2021 - 20:42:23 : STATUS: FAIL : MESSAGE: Falha ao executar o script, verifique o site de destino!
+09/08/2021 - 20:43:03 : STATUS: FAIL : MESSAGE: Falha ao executar o script, verifique o site de destino!

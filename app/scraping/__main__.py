@@ -1,18 +1,19 @@
-from scraping import Scraping
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from os.path import join, dirname, realpath, isfile
-from os import listdir
-from convert import Convert
-from logger import Logger
-from app import db, Dose
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.common.by import By
+#from app import db, Dose
 import csv
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-
+from logger import Logger
+from convert import Convert
+from util import Util
+from os import listdir
+from os.path import join, dirname, realpath, isfile
+from selenium.webdriver.firefox.options import Options
+from selenium import webdriver
+from scraping import Scraping
 base_dir = dirname(realpath(__file__))
 dir_download = join(base_dir, 'downloads')
+print(__name__)
 
 profile = webdriver.FirefoxProfile()
 profile.set_preference("browser.download.folderList", 2)

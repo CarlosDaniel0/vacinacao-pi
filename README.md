@@ -13,7 +13,7 @@ $ python3 -m venv myenv
 $ source myenv/bin/activate
 
   # Instalar Requerimentos (*pip é o npm do Python)
-$ pip install -r requiriments.txt
+$ pip install -r requirements.txt
 
   # Executar o projeto
 $ python app/app.py
