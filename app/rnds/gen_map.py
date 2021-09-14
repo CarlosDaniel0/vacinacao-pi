@@ -8,7 +8,8 @@ def execute(base_dir):
     dtypes = {'codarea': 'str'}
     #municipios = pd.read_csv('p_vacinados.csv', dtype=dtypes)
     # population = pd.read_csv('vacinados.csv', dtype=dtypes)
-    population = pd.read_csv(join(base_dir, 'public', 'vacinacao_pi_map.csv'), dtype=dtypes)
+    url = 'https://vacinacao-pi-js.herokuapp.com/doses?type=csv'
+    population = pd.read_csv(url, dtype=dtypes)
 
     #data = pd.merge(municipios, population)
     nil = gpd.read_file(join(base_dir, 'rnds', 'malha-dos-municipios-pi.json'))
@@ -56,7 +57,7 @@ def execute(base_dir):
         style_function=style_function,
         highlight_function=highlight_function,
         tooltip=folium.features.GeoJsonTooltip(
-            fields=['municipio', 'total_doses', 'doses_aplicadas', 'porcentagem'],
+            fields=['municipio', 'doses_distribuidas', 'doses_aplicadas', 'porcentagem'],
             aliases=['Município: ', 'Doses recebidas', 'Doses aplicadas', 'Percentual %: '],
             style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;")
         )
