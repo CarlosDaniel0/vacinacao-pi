@@ -67,4 +67,5 @@ def execute(base_dir):
     m.keep_in_front(NIL)
     folium.LayerControl().add_to(m)
 
-    m.save(join(base_dir, 'templates', 'map.html')) 
+    return m.get_root().render()
+    #m.save(join(base_dir, 'templates', 'map.html')) 
