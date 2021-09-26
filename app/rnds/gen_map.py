@@ -59,7 +59,8 @@ def execute(base_dir):
         tooltip=folium.features.GeoJsonTooltip(
             fields=['municipio', 'doses_distribuidas', 'doses_aplicadas', 'porcentagem'],
             aliases=['Município: ', 'Doses recebidas', 'Doses aplicadas', 'Percentual %: '],
-            style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;")
+            style=("background-color: white; color: #333333; font-family: arial; font-size: 12px; padding: 10px;"),
+            localize=True,
         )
     )
 
